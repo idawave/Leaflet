@@ -344,6 +344,7 @@ Plugins for loading basemaps or GIS raster layers in common (albeit non-default)
 			<a href="https://github.com/GeoportalPL/leaflet.projwmts">Leaflet.projwmts</a>
 		</td><td>
 			Adding WMTS services (GUGiK Poland).
+		 (<a href="https://geoportalpl.github.io/leaflet.projwmts/examples/wmts_services.html">demo</a>).
 		</td><td>
 			<a href="https://github.com/GeoportalPL">Geoportal Poland</a>
 		</td>
@@ -3107,6 +3108,15 @@ These plugins extend Leaflet event handling.
 			This plugin allows you to increase the click tolerance of canvas powered layers, making it possible to increase the clickable area of vector layers beyond their visible extent. Useful when your features are difficult to click otherwise.
 		</td><td>
 			<a href="https://github.com/geoloep">Geoloep</a>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<a href="https://github.com/idawave/Leaflet.DraggableEnhancer">L.DraggableEnhancer</a>
+		</td><td>
+			Modify the default L.Draggable handler (responsible for map panning, ...) to make it work properly if one of the map container's parents has predefined handlers like "event.stopPropagation()' attached to a "mousemove" event for example.
+		</td><td>
+			<a href="https://github.com/idawave">Vincent Dechandon</a>
 		</td>
 	</tr>
 </table>
